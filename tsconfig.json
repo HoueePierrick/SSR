@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "lib": ["DOM", "ESNext", "es5", "es6", "dom", "dom.iterable"],
+    "module": "ESNext",
+    "strict": true
+  },
+  "include": ["index.ts"],
+  "exclude": ["node_modules", "**/*.spec.ts"],
+  "moduleResolution": "node",
+  "module": "commonjs"
+}
